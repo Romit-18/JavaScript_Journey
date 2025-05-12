@@ -28,3 +28,16 @@ console.log(typeof StrNum);
 
 //String conversion
 // 33,null,"" everything converted to string
+
+
+
+
+
+//**********************************operation**********************************
+
+let value = 3
+let negVL = -value //-3
+console.log(3+4*5%5)
+
+
+
