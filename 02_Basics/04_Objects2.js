@@ -60,3 +60,32 @@ console.log(Object.keys(bumble));
 console.log(Object.values(bumble));
 console.log(Object.entries(bumble));
 console.log(bumble.hasOwnProperty("usernme"));
+
+
+//******************************Object de-structure and JSON API intro******************************
+
+const course={
+ course_name: "Javascript",
+ price: "9999",
+ courseInstructor: "Hitesh"
+}
+
+const {course_name: name} = course //object de-structure
+console.log(name);
+
+
+//API: APPLICATION PROGRAM INTERFACE
+//json
+// 1.object
+// {
+//     "name": "Romit Pal",
+//     "Course": "Javascript",
+//     "Price" : 9999,
+//     "IsEnrolled" : true
+// }
+//2. array of object
+// [
+//     {},
+//     {},
+//     {}
+// ]
