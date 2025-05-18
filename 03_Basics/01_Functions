@@ -1,0 +1,52 @@
+//Function basic
+
+//function definition
+function callMyName(){
+    console.log("R");
+    console.log("O");
+    console.log("M");
+    console.log("I");
+    console.log("T");
+    
+}
+
+//function call
+
+//callMyName()
+
+function add(num1, num2){
+   console.log(num1 + num2);
+}
+const res= add(2,4)
+console.log(res); //undefined
+
+function add(num1, num2){
+   let sum = num1+num2
+   return sum
+}
+
+let result = add(3,5)
+//console.log(result);
+
+
+// If we don't know the number of entry then use rest operator (...)
+
+function user(...num) {
+  return num
+}
+
+//console.log(user(10,20,30))
+
+const obj1 = {
+ userX : "Romit",
+ isLoggedIn: true,
+ age: 22,
+}
+
+function handleObject(username){
+   console.log(`User ${username.userX} is logged into the device ${username.isLoggedIn} ` + " & " + ` his age is ${username.age}`);
+   
+}
+
+
+ handleObject(obj1)
