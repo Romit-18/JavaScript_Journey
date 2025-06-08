@@ -3,7 +3,7 @@
 const coding = ["js","golang","java","c","rust"]
 
 //type:1
-// coding.forEach( function (item) {
+// coding.forEach( function(item) {
 //     console.log(item);
 // } )
 
