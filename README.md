@@ -1,2 +1,2 @@
 # JavaScript_Journey
-A code repo for Javascript playlist at Chai Aur Code
+A code repo consists of Javascript notes and important concepts.
